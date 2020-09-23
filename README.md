@@ -1,0 +1,1 @@
+This project aims to list down some of the common features of java script which may get Developers in different language in trouble.
