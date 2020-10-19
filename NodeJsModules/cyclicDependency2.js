@@ -5,7 +5,7 @@ function divide(x,y) {
 }
 
 function multiply3(x,y) {
-    //let cycle1 = require('./cyclicDependency');
+    let cycle1 = require('./cyclicDependency');
 
     //console.log(cycle1);
     let ans = 0;
@@ -22,4 +22,4 @@ module.exports = {multiply : (x,y)=>{
     }
     return ans;
 
-}, divide}
+}, divide, multiply3}
